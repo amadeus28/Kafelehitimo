@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     sessionStorage.setItem("username", username);
                     sessionStorage.setItem("password", password);
                     alert("Login successful!");
-                    window.location.href = "index.html"; 
+                    window.location.href = "home.html"; 
                 } else {
                     alert("Invalid username or password.");
                 }
